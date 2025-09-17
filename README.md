@@ -44,10 +44,6 @@ Or install manually:
 
       mysite/
     │── accounts/           # App for user registration & login
-    │   ├── templates/      # HTML templates
-    │   │   ├── base.html
-    │   │   ├── login.html
-    │   │   └── register.html
     │   ├── views.py
     │   ├── forms.py
     │   └── urls.py
@@ -56,6 +52,16 @@ Or install manually:
     │   ├── settings.py
     │   ├── urls.py
     │   └── wsgi.py
+    │── templates/
+    │      ├──accounts/
+    │      │     └──register.html
+    │      ├──registration/
+    │      │       └──login.html
+    │      ├── base.html
+    │      ├──home.html
+    │      ├──profile.html
+    │
+    │──static/
     │
     │── manage.py
     │── requirements.txt
